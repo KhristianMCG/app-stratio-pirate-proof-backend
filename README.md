@@ -27,4 +27,10 @@ The service is encapsulated in a docker container.
     - docker build -t stratio-pirate-service-backend .
 2. Run docker image 
     - docker run -p 8080:8080 stratio-pirate-service-backend
+    
+### Port Names for search through API Rest
+- Pirate Bay Port
+- Bahia Occident
+- Seychells Lost Port
+
 
