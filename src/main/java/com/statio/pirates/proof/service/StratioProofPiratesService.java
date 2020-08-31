@@ -20,11 +20,7 @@ public class StratioProofPiratesService {
     private static final Logger LOGGER = LoggerFactory.getLogger(StratioProofPiratesService.class);
 
     public List<Travel> getAllTravelsByPortName(final String portName, final String eventType) {
-        if (eventType == null || eventType.isEmpty()) {
-            return this.getTravelsNonFiltered(portName);
-        } else {
-            return this.getTravelsFiltered(portName, eventType);
-        }
+        return (eventType == null || eventType.isEmpty()) ? this.getTravelsNonFiltered(portName) : this.getTravelsFiltered(portName, eventType);
     }
 
     private List<Travel> getTravelsFiltered(final String portName, final String eventType) {
