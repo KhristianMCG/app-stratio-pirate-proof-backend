@@ -7,7 +7,7 @@ This service is based in spring-boot. The result is exposed way API REST and can
 Select StratioProofPiratesApplication and Run As java application or spring-boot-app. This will serve a Tomcat Server
 in localhost:8080.
 
-### Getting Fibonaccie Serie
+### Getting Data travels
 There is a servlet controller, that will give you the following information:
 
     - Know all the travel history of a ship or port and filter it by event type.
