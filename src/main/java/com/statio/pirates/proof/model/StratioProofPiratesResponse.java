@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Getter
-@Builder(builderMethodName = "builder")
+@Builder
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @JsonAutoDetect(
